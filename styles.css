@@ -1,0 +1,64 @@
+body{
+    background-color: black;    
+}
+#postcard{
+    background-color: white;
+    width: 650px;
+    height: 450px;
+    margin: auto;
+}
+.header{
+    height: 70px;
+    position: relative;
+    padding-top: 10px;
+}
+#title{
+    padding-left: 10px;
+    position: absolute;
+}
+#logo{
+    float: right;
+    padding-right: 10px;
+}
+#left{
+    width: 50%;
+    float: left;
+    padding-top: 15px;
+}
+p.texto{
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 5px;
+    padding-left: 10px;
+}
+#right{
+    width: 45%;
+    float: right;
+    padding-right: 5%;
+    text-align: right;
+}
+.formulario{
+    font-family : "Times New Roman", cursive;
+    font-size: 25px;
+    color: gray;
+    width: 200px;
+    margin-top: 10px;
+    border-width: 1px;
+	border-style: hidden hidden solid;
+
+}
+.boton:active { 
+	font-family : 'Times New Roman', cursive;
+	padding: 0; 
+	background: gray; 
+	color: black; 
+  } 
+
+.boton{
+    font-family : 'Times New Roman', cursive;
+    font-size: 20px;
+    color: black;
+    width: 28%;
+    margin-left: 35%;
+    background-color: lightgray;
+}
